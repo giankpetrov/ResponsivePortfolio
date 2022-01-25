@@ -36,6 +36,21 @@ li{
     margin-bottom: 0px;
     font-size: 90px;
 }
+.blink{
+    animation: blink 1s steps(1, end) infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 0;
+    }
+    50%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
 .hero-p{
     margin-top: 0px;
     margin-left: 30px;
