@@ -1,11 +1,55 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
 section{
     height: 500px;
     background-color: white;
     border:solid black 1px;
 }
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo{
+    margin: 25px 30px 30px 30px;
+}
+ul{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    width: 500px;
+    font-size: 30px;
+}
+li{
+    width: 200px;
+    text-decoration: none;
+}
 .hero{
     background-color: blue;
     height: 100vh;
+    font-size: 40px;
+}
+.hero-title{
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-bottom: 0px;
+    font-size: 90px;
+}
+.hero-p{
+    margin-top: 0px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    font-size: 30px;
+}
+.button {
+    width: 150px;
+    height: 30px;
+    margin-left: 30px;
+    background-color: aliceblue;
+    border-radius: 30px;
+    text-align: center;
+    font-size: 20px;
 }
 footer{
     height: 500px;
