@@ -4,7 +4,6 @@ body{
 
 section{
     height: 500px;
-    background-color: white;
     border:solid black 1px;
 }
 nav{
@@ -12,7 +11,10 @@ nav{
     justify-content: space-between;
 }
 .logo{
-    margin: 25px 30px 30px 30px;
+    margin-top: 10px;
+    margin-left: 20px;
+    height: 150px;
+    width: 150px;
 }
 ul{
     display: flex;
@@ -26,9 +28,20 @@ li{
     text-decoration: none;
 }
 .hero{
-    background-color: blue;
-    height: 100vh;
+    background-color: black;
+    height: 20vh;
     font-size: 40px;
+    color: white;
+    align-items: center;
+}
+.hero-area{
+    height: 80vh;
+    font-size: 30px;
+    color: white;
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .hero-title{
     margin-top: 0px;
@@ -57,15 +70,32 @@ li{
     margin-bottom: 30px;
     font-size: 30px;
 }
+.socials{
+    padding-right: 30px;
+    padding-left: 30px;
+    display: flex;
+    flex-direction: column;
+    margin-right: 30px;
+}
+.icons{
+    height: 80px;
+    margin-bottom: 40px;
+}
 .button {
     width: 150px;
     height: 30px;
     margin-left: 30px;
-    background-color: aliceblue;
+    background-color: green;
     border-radius: 30px;
     text-align: center;
     font-size: 20px;
+    padding-top: 5px;
 }
+.button:hover{
+    background-color: white;
+    color: green;
+}
+
 footer{
     height: 500px;
     background-color: black;
