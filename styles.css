@@ -109,9 +109,22 @@ li{
 }
 h2{
     font-size: 50px;
+    padding-left: 30px;
 }
 .information{
-
+    font-size: 30px;
+    padding-left: 30px;
+}
+.avatar-container{
+    display: flex;
+    align-items: center;
+}
+.avatar{
+    border-radius: 150px;
+    border: solid black;
+    height: 300px;
+    width: 300px;
+    margin-right: 100px;
 }
 footer{
     height: 500px;
