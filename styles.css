@@ -3,7 +3,6 @@ body{
 }
 
 section{
-    height: 500px;
     border:solid black 1px;
 }
 nav{
@@ -49,6 +48,7 @@ li{
     margin-bottom: 0px;
     font-size: 90px;
 }
+/*blink effect on name title*/
 .blink{
     animation: blink 1s steps(1, end) infinite;
 }
@@ -64,18 +64,24 @@ li{
         opacity: 0;
     }
 }
+/*Class for the text below name*/
 .hero-p{
     margin-top: 0px;
     margin-left: 30px;
     margin-bottom: 30px;
     font-size: 30px;
 }
+/* Class for all social icons*/
 .socials{
-    padding-right: 30px;
+    padding-right: 50px;
     padding-left: 30px;
     display: flex;
     flex-direction: column;
-    margin-right: 30px;
+    margin: 30px;
+}
+/* Class for icons individually */
+.social{
+    margin: 20px;
 }
 .icons{
     height: 80px;
@@ -95,7 +101,18 @@ li{
     background-color: white;
     color: green;
 }
+.section2{
+    height: 600px;
+    background-color: white;
+    display: flex;
+    justify-content: space-around;
+}
+h2{
+    font-size: 50px;
+}
+.information{
 
+}
 footer{
     height: 500px;
     background-color: black;
