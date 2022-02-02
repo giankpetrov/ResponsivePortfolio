@@ -22,9 +22,39 @@ ul{
     width: 500px;
     font-size: 30px;
 }
+
+ul.show{
+    display: block;
+
+}
 li{
     width: 200px;
     text-decoration: none;
+}
+.hamburger{
+   display: none;
+}
+@media only screen and (max-width: 1024px){
+    .hamburger{
+        display: block;
+        border: 0px;
+        background-color: transparent;
+        color: white;
+        font-size: 30px;
+        margin: 30px;
+        align-self: flex-end;
+    }
+    ul{
+        display: none;
+        margin: 0px;
+    }
+    nav{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .logo{
+        display: none;
+    }
 }
 .hero{
     background-color: black;
