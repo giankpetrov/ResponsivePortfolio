@@ -168,11 +168,20 @@ h2{
     box-shadow: 5px 5px 20px rgb(177, 177, 177);
 }
 footer{
-    height: 500px;
+    height: 200px;
     background-color: black;
+    color: white;
+    text-align: center;
+    padding: 50px;
 }
-
 a {
     text-decoration: none;
     color: white;
+}
+
+@media only screen and (max-width: 1024px) {
+    .project-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
 }
