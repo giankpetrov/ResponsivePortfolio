@@ -11,6 +11,7 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
+    padding-right: 50px;
 }
 .logo{
     margin-top: 10px;
